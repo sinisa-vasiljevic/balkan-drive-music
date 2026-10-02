@@ -13,3 +13,5 @@ Neu:
 - Media Session für Play, Pause, vorheriger und nächster Titel.
 - Lenkrad-, Sperrbildschirm- und CarPlay-Medienbefehle werden verarbeitet, soweit iOS sie an die PWA weitergibt.
 - Hintergrundwiedergabe, Favoriten, Zufall, Fortsetzen und Offline-Speicherung bleiben erhalten.
+
+Version 1.6: Player feste Höhe, keine Note, Titel/Interpret/Zeit oben, vier große 62px-Buttons unten in fixer Position.
