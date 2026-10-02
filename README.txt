@@ -1,13 +1,15 @@
-Balkan Drive Music V1.4
+Balkan Drive Music V1.5
 
 Neu:
-- Importpegel wählbar: Original, -3 dB, -6 dB oder -9 dB.
-- Standardwert: -6 dB.
-- Die Absenkung wird lokal beim Import dauerhaft in die Offline-Kopie eingerechnet.
-- Das Original im iPhone-Ordner bleibt unverändert.
-- Reduzierte Dateien werden als WAV gespeichert, um ohne zusätzliche Server oder Online-Konvertierung auszukommen.
-- Normales HTML-Audio bleibt für Hintergrund, Sperrbildschirm und CarPlay erhalten.
-- Web Audio API wird nicht für die Wiedergabe verwendet.
-
-Hinweis:
-WAV benötigt mehr Speicher als MP3. Die Verarbeitung erfolgt lokal und kann je nach Songlänge einige Sekunden dauern.
+- Importpegel: -6 dB, -9 dB und -12 dB.
+- Standardwert: -9 dB.
+- Titelzusatz beim Import, z. B. BARABA -9dB.
+- Einzelnen Song über Papierkorb löschen.
+- Alle Songs in Einstellungen löschen.
+- Sicherheitsabfrage vor jedem Löschen.
+- Originaldateien auf dem iPhone bleiben erhalten.
+- Vorheriger Titel, Play/Pause und nächster Titel im festen Player.
+- Zurück startet bei mehr als 3 Sekunden zunächst den aktuellen Song neu.
+- Media Session für Play, Pause, vorheriger und nächster Titel.
+- Lenkrad-, Sperrbildschirm- und CarPlay-Medienbefehle werden verarbeitet, soweit iOS sie an die PWA weitergibt.
+- Hintergrundwiedergabe, Favoriten, Zufall, Fortsetzen und Offline-Speicherung bleiben erhalten.
