@@ -1,12 +1,13 @@
-Balkan Drive Music V1.3.1 TEST
+Balkan Drive Music V1.4
 
-Testversion ohne Web Audio API.
-- NAVI- und MUSIK-Modus mit getrennt gespeicherten Lautstärken.
-- Standard: NAVI 45 %, MUSIK 100 %.
-- Der Regler verändert immer den aktiven Modus.
-- Native HTML-Audio-Lautstärke audio.volume.
-- Hintergrundwiedergabe und gesperrtes iPhone sollen dadurch erhalten bleiben.
-- Media Session und Audio Session playback ergänzt.
-- Fortsetzen, Import, Favoriten, Zufall und Offline-Speicherung bleiben erhalten.
+Neu:
+- Importpegel wählbar: Original, -3 dB, -6 dB oder -9 dB.
+- Standardwert: -6 dB.
+- Die Absenkung wird lokal beim Import dauerhaft in die Offline-Kopie eingerechnet.
+- Das Original im iPhone-Ordner bleibt unverändert.
+- Reduzierte Dateien werden als WAV gespeichert, um ohne zusätzliche Server oder Online-Konvertierung auszukommen.
+- Normales HTML-Audio bleibt für Hintergrund, Sperrbildschirm und CarPlay erhalten.
+- Web Audio API wird nicht für die Wiedergabe verwendet.
 
-Test: Prüfen, ob die Lautstärke auf dem konkreten iPhone hörbar wirkt und Musik bei Hintergrund, Sperrbildschirm und CarPlay weiterläuft.
+Hinweis:
+WAV benötigt mehr Speicher als MP3. Die Verarbeitung erfolgt lokal und kann je nach Songlänge einige Sekunden dauern.
