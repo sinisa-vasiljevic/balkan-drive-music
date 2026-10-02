@@ -1,15 +1,15 @@
-Balkan Drive Music V1.1
+Balkan Drive Music V1.2
 
-Neu:
-- Premium-Neon-Icon mit Schriftzug Balkan eingebaut.
-- iPhone-Icon in 180, 192 und 512 Pixeln.
-- Die PWA fordert, soweit iOS dies unterstützt, beständigen lokalen Speicher an.
+Behoben:
+- Kein accept="audio/*" mehr im iPhone-Dateidialog.
+- MP3-Dateien mit falschem MIME-Typ sind auswählbar.
+- Eigene Prüfung von Dateiendung und tatsächlicher Abspielbarkeit.
+- Unterstützt: MP3, M4A, AAC, WAV, OGG/OGA, FLAC, OPUS, WEBM und MP4-Audio, soweit iOS das Format abspielen kann.
+- Duplikaterkennung und verständliche Importmeldungen.
+- Mehrfachauswahl.
 
-Funktionsfähig:
-- MP3-/Audiodateien direkt aus der iPhone-App Dateien auswählen.
-- Dateien als Offline-Kopie in IndexedDB importieren.
-- Alle Songs, Favoriten, Suche, normale Reihenfolge und optionaler Zufallsmodus.
-- Letzten Bereich, Titel und Position merken.
-
-Nicht enthalten:
-- Kein YouTube-zu-MP3-Downloader. Der YouTube-Link-Bereich bleibt als vorbereitete Oberfläche bestehen.
+Enthalten:
+- Premium-Neon-Balkan-Icon
+- Offline-Speicherung, Alle Songs, Favoriten, Suche
+- normale Reihenfolge und optionaler Zufallsmodus
+- letzter Bereich, Song und Position
