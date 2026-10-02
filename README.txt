@@ -1,15 +1,12 @@
-Balkan Drive Music V1.2
+Balkan Drive Music V1.3
 
-Behoben:
-- Kein accept="audio/*" mehr im iPhone-Dateidialog.
-- MP3-Dateien mit falschem MIME-Typ sind auswählbar.
-- Eigene Prüfung von Dateiendung und tatsächlicher Abspielbarkeit.
-- Unterstützt: MP3, M4A, AAC, WAV, OGG/OGA, FLAC, OPUS, WEBM und MP4-Audio, soweit iOS das Format abspielen kann.
-- Duplikaterkennung und verständliche Importmeldungen.
-- Mehrfachauswahl.
-
-Enthalten:
-- Premium-Neon-Balkan-Icon
-- Offline-Speicherung, Alle Songs, Favoriten, Suche
-- normale Reihenfolge und optionaler Zufallsmodus
-- letzter Bereich, Song und Position
+Neu:
+- Wiedergabe wird an der gespeicherten Position fortgesetzt.
+- Play-Schaltfläche im Bereich Weiter hören entfernt.
+- Nur noch der feste Player steuert die Wiedergabe.
+- Version 1.3 im Header.
+- Freier App-Lautstärkeregler von 0 bis 100 Prozent.
+- Lautstärke wird dauerhaft gespeichert.
+- Web Audio API mit GainNode für iOS.
+- Zufall bleibt manuell schaltbar.
+- Importkorrektur aus V1.2 bleibt erhalten.
