@@ -1,12 +1,12 @@
-Balkan Drive Music V1.3
+Balkan Drive Music V1.3.1 TEST
 
-Neu:
-- Wiedergabe wird an der gespeicherten Position fortgesetzt.
-- Play-Schaltfläche im Bereich Weiter hören entfernt.
-- Nur noch der feste Player steuert die Wiedergabe.
-- Version 1.3 im Header.
-- Freier App-Lautstärkeregler von 0 bis 100 Prozent.
-- Lautstärke wird dauerhaft gespeichert.
-- Web Audio API mit GainNode für iOS.
-- Zufall bleibt manuell schaltbar.
-- Importkorrektur aus V1.2 bleibt erhalten.
+Testversion ohne Web Audio API.
+- NAVI- und MUSIK-Modus mit getrennt gespeicherten Lautstärken.
+- Standard: NAVI 45 %, MUSIK 100 %.
+- Der Regler verändert immer den aktiven Modus.
+- Native HTML-Audio-Lautstärke audio.volume.
+- Hintergrundwiedergabe und gesperrtes iPhone sollen dadurch erhalten bleiben.
+- Media Session und Audio Session playback ergänzt.
+- Fortsetzen, Import, Favoriten, Zufall und Offline-Speicherung bleiben erhalten.
+
+Test: Prüfen, ob die Lautstärke auf dem konkreten iPhone hörbar wirkt und Musik bei Hintergrund, Sperrbildschirm und CarPlay weiterläuft.
