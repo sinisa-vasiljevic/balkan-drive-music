@@ -1,16 +1,15 @@
-Balkan Drive Music - UI-Prototyp 1.0
+Balkan Drive Music V1.1
 
-Enthalten:
-- Startseite wie im Mockup
-- Alle Songs und Favoriten
-- Songs direkt antippbar
-- Favoriten per Herz umschaltbar
-- Letzten Bereich und letzten ausgewählten Titel merken
-- Suche
-- Mini-Player
-- Lokale Audiodateien aus der Dateien-App für die aktuelle Sitzung importieren und abspielen
-- Vorbereitete YouTube-Importansicht
+Neu:
+- Premium-Neon-Icon mit Schriftzug Balkan eingebaut.
+- iPhone-Icon in 180, 192 und 512 Pixeln.
+- Die PWA fordert, soweit iOS dies unterstützt, beständigen lokalen Speicher an.
 
-Wichtig:
-Der direkte YouTube-Download ist in diesem Prototyp noch nicht aktiv. Dafür ist ein separater Konvertierungsdienst erforderlich.
-Lokale Audiodateien werden in dieser PWA nur für die aktuelle Sitzung geöffnet. Dauerhafter Zugriff auf einen iPhone-Ordner ist mit einer reinen PWA eingeschränkt und erfordert für die endgültige Lösung voraussichtlich eine native iPhone-App.
+Funktionsfähig:
+- MP3-/Audiodateien direkt aus der iPhone-App Dateien auswählen.
+- Dateien als Offline-Kopie in IndexedDB importieren.
+- Alle Songs, Favoriten, Suche, normale Reihenfolge und optionaler Zufallsmodus.
+- Letzten Bereich, Titel und Position merken.
+
+Nicht enthalten:
+- Kein YouTube-zu-MP3-Downloader. Der YouTube-Link-Bereich bleibt als vorbereitete Oberfläche bestehen.
